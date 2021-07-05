@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.green-color {
+  color: green;
+}
+
+.btn {
+  color: white;
+  background: linear-gradient(#20bf55, #01baef);
+  padding: 10px 50px;
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.hero-img {
+  width: 50%;
+}
+
+section.top-banner {
+  background-image: url(../images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+section.header .flex .hero-txt {
+  width: 50%;
+  margin-top: 5%;
+}
+
+section.header .flex .hero-txt h1 {
+  font-size: 90px;
+  font-family: "Staatliches", cursive;
+  line-height: 0.5;
+  padding-right: 80px;
+}
+
+section.header .flex .hero-txt h3,
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+section.header .flex .hero-txt h3 {
+  font-size: 40px;
+}
+
+section.header .flex .hero-txt p {
+  font-size: 20px;
+  padding-right: 70px;
+}
+
+section.main {
+  background-image: url(../images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+section.main .flex .hero-txt p {
+  font-size: 20px;
+  padding-right: 70px;
+}
+
+section.main .flex .hero-txt h3 {
+  font-size: 40px;
+}
+
+section.main .flex .hero-txt h3,
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+section.main .flex .hero-txt h1 {
+  font-size: 90px;
+  font-family: "Staatliches", cursive;
+  line-height: 0.5;
+  padding-right: 80px;
+}
+
+section.main .flex .hero-txt {
+  margin-right: 50px;
+  margin-left: 5%;
+}
+
+.hero-txt {
+  margin-top: 10rem;
+}
+
+section.experiences .exp-txt {
+  font-size: 80px;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+}
+
+section.experiences {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+}
+
+section.experiences .half-width {
+  width: 50%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+section.experiences .half-width h1 {
+  font-size: 50px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+section.experiences .half-width h3 {
+  font-size: 25px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+section.experiences .half-width {
+  box-shadow: 16px 7px 50px;
+  margin-bottom: 6rem;
+  margin-top: 5rem;
+  border-radius: 10px;
+  padding: 0 40px 40px 40px;
+}
+
+section.experiences .left {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+section.experiences .right {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(255, 0, 149), cyan);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+}
